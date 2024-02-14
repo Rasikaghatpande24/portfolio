@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/r-logo-zip-file/png/logo-no-background.png">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navigation">
+                <img src="/images/r-logo-zip-file/png/logo-no-background.png" class="logo" width="50px" height="40px">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certificates</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"style="color: #81063f;" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="content">
+                    <h1>Hi, I am <img src="/images/rasika-logo-zip-file (1)/png/logo-no-background.png" width="130px" height="50px"></h1>
+                    <div class="typingNameDiv">A
+                        <ul class="typingNames"> 
+                                <li><span>Coder</span></li>
+                                <li><span>Student</span></li>
+                                <li><span>Developer</span></li>
+                        </ul>
+                    </div>  
+                </div>
+               <!-- <div class="image">
+                    <img src="/images/WhatsApp Image 2023-09-14 at 13.05.05 (1).png" alt="" width="100%" height="650px">
+                </div>  -->
+                
+            </div>
+        </div>
+    </div>
+    <!-- -------------------About section------------ -->
+    <div id="about">
+        <div class="container reveal">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="/images/aboutmephoto.jpeg">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="subTitle">About me </h1>
+                    <p>Graduate student pursuing a Master's degree of Computer Applications at Ajeenkya DY Patil College, passionate about exploring the dynamic world of IT, with a focus on web and app development. 
+                        Eager learner dedicated to mastering new technologies and contributing to innovative projects in the field. <br> <br>
+                                               
+                        Passionate learner unafraid of failure, dedicated to personal growth through continuous education.
+                        Persistent and hardworking individual committed to daily progress towards achieving goals.</p>
+                    <div class="tabTitles">
+                        <p class="tabLinks activeLink" onclick="openTab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="openTab('experience')">Experience</p>
+                        <p class="tabLinks" onclick="openTab('education')">Eduaction</p>  
+                    </div>
+                    <div class="tabContents activeTab" id="skills">
+                        <ul>
+                            <li><span>Frontend development</span><br>HTML5||CSS||Javascript</li>
+                            <li><span>Mern stack</span><br>MongoDb||ExpressJs||ReactJs||NodeJs</li>
+                            <li><span>Java programming</span><br>Loops||Functions||Class||Oops</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tabContents" id="experience">
+                        <ul>
+                            <li><span>Junior frontend developer</span><br>Html||Css||Bootstrap||Saas||Js <br>3 months</li>
+                            <!-- ><li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building android/ios apps</li -->
+
+                        </ul>
+                    </div>
+
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>Mca(Masters of computer applications)</span><br>Ajeenkya D Y Patil &nbsp; ||Current</li>
+                            <li><span>Bcom</span><br>BJCC &nbsp; ||8.46</li>
+                            <li><span>HSC</span><br>Elphinstone College &nbsp; ||73.85</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- --------------------Services section------------------- -->
+    <div id="services">
+        <div class="container reveal">
+            <h1 class="subTitle">My certificates</h1>
+            <div class="serviceList">
+            <div class="serviceLists">
+                <i class="fa-solid fa-code"></i>
+                <h2>Full stack web Developer</h2>
+                <p>Proficient in both front-end and back-end technologies, adept at 
+                    creating dynamic, end-to-end web solutions. Equipped with a 
+                    comprehensive skill set to design, develop, and deploy versatile 
+                    applications that meet modern business needs effectively.</p>
+                    <a href="https://media.geeksforgeeks.org/courses/certificates/96ca5bedc99d787f1fa332177f73ec20.pdf">Learn more</a>
+            </div>
+            <div class="serviceLists">
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Java programming</h2>
+                <p>Equipped with comprehensive skills and expertise to tackle complex 
+                    software development challenges efficiently. Proven proficiency in 
+                    leveraging Java's power to create robust, scalable solutions for 
+                    diverse applications.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div class="serviceLists">
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Full stack development(Internship program)</h2>
+                <p> Proficient in building dynamic web applications, equipped with a 
+                    comprehensive understanding of the entire development stack. Ready to 
+                    leverage my skills and knowledge to create innovative and user-centric 
+                    digital solutions.</p>
+                    <a href="https://www.edureka.co/certificates/mycertificate/3fc0ac63e12d943995615d8142fcc95e">Learn more</a>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------Portfolio section------------ -->
+    <div id="portfolio">
+        <div class="container reveal">
+            <h1 class="subTitle">My projects</h1>
+            <div class="workList">
+                <div class="work">
+                    <img src="/images/project2.png">
+                    <div class="layer">
+                        <h3>Musify webapp</h3>
+                        <p>Musiify, is a user-friendly frontend-based music website featuring curated playlists and
+                            an extensive collection of additional songs. With seamless play and pause
+                             functionality, users can enjoy a personalized music experience.</p>
+                            <a href="https://fabulous-cassata-290cc4.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/project1.png">
+                    <div class="layer">
+                        <h3>Birthday Bash</h3>
+                        <p>Created a small projects as a gift for my family member which helped to brush up my skill</p>
+                            <a href="https://birthdayjiju.000webhostapp.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/project3.png">
+                    <div class="layer">
+                        <h3>Portfolio app</h3>
+                        <p>Crafting a captivating portfolio website to showcase my diverse skills and
+                            accomplishments, aiming to leave a lasting impression and foster professional
+                            connections.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn1">See more</a>
+        </div>
+    </div>
+<!-- -------------------Contact section--------------- -->
+<div id="contact">
+    <div class="container reveal">
+        <div class="row">
+            <div class="contactLeft">
+                <h1 class="subTitle">Contact Me</h1>
+                <p><a href="rasika.ghatpande24@gmail.com"><i class="fa-solid fa-paper-plane" style="color: #81063f;"></i> rasika.ghatpande24@gmail.com</a></p>
+                <p><a href="#"><i class="fa-solid fa-phone" style="color: #81063f;"></i> 7977319134</a></p>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/rasika-ghatpande-0060731b4"><i class="fa-brands fa-linkedin" style="color: #81063f;"></i></a>
+                    <a href="https://github.com/Rasikaghatpande24"><i class="fa-brands fa-github" style="color: #81063f;"></i></a>
+                    <a href="https://www.instagram.com/bombay_yogagal/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fedit%252F%253F__coig_login%253D1%26__coig_login%3D1"><i class="fa-brands fa-square-instagram" style="color: #81063f;"></i></a>
+                </div>
+                <a href="/images/Resume 2.pdf" download class="btn">DownLoad CV</a>
+            </div>
+            <div class="contactRight">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter name" required>
+                    <input type="email" name="Email" placeholder="Enter email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter Message"></textarea>
+                    <button type="submit" class="btn btn1 btn2">Submit</button>
+                </form>
+                <span id="submitMsg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright @<img src="/images/rasika-logo-zip-file (1)/png/logo-no-background.png"width="60px" height="25px">&nbsp; 2024.&nbsp;This is my portfolio website.
+    </div>
+</div>
+<!-- ----------------------------------js--------------------- -->
+<script>
+
+    // ------------------------------aboutme------------------------------
+    var tabLinks = document.getElementsByClassName("tabLinks");
+    var tabContents = document.getElementsByClassName("tabContents");
+
+    function openTab(tabName){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("activeLink");
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("activeTab");
+        }
+
+        event.currentTarget.classList.add("activeLink");
+        document.getElementById(tabName).classList.add("activeTab");
+    }
+
+    // --------------------------scroll transition delay ---------------------
+    window.addEventListener('scroll', reveal);
+    console.log("Hey there,")
+    function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+
+        for(i=0; i< reveals.length; i++){
+           var windowHeight = window.innerHeight;
+           var revealTop = reveals[i].getBoundingClientRect().top;
+           var revealPoint = 150;
+
+            if(revealTop < windowHeight - revealPoint){
+                reveals[i].classList.add('active');
+            }
+            else{
+                reveals[i].classList.remove('active');
+            }
+        }
+    }
+// -----------------------mobile navigation---------------------
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-250px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnBv4Sz3oLbhNB7f-j8gZBNI_MBgG-8Rz7C5yktCtkla9fNStdgqCherJyp1767MUy/exec';
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("submitMsg");
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<!-- <script src="/script.js"></script>  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="https://kit.fontawesome.com/f716632e6c.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
