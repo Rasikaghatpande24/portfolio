@@ -551,8 +551,8 @@ form input,form textarea{
         opacity: 0.8;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -300px;
+        width: 350px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -586,7 +586,7 @@ form input,form textarea{
         margin-left: 20px;
     }
     #header{
-        height: 140vh;
+        height: 125vh;
         background-position: bottom;
 
     }
@@ -598,8 +598,13 @@ form input,form textarea{
         flex-basis: 100%;
     }
     .aboutCol1 img{
-        height: 400px;
-
+        height: 350px;
+    }
+     .tabTitles{
+        margin-left: -70px;
+    }
+    .tabContents{
+        margin-left: -80px;
     }
 /* ----------------service-------------------- */
     .serviceList{
@@ -612,8 +617,20 @@ form input,form textarea{
     .serviceList div{
         margin-top: 30px;
     }
-    .tabTitles{
-        margin-left: -45px;
+    .serviceList div a{
+        margin-top: 10px;
+    }
+    
+    .serviceList div i{
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    
+    .serviceList div h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 400;
     }
 /* ---------------portfolio------------ */
     .workList{
@@ -625,6 +642,22 @@ form input,form textarea{
     .work{
         margin-top: 30px;
     }
+    .work p{
+        font-size: 12px;
+    }
+
+    .layer h3{
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .layer a{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
 
 /* ---------------contact------------- */
     .contactLeft, .contactRight{
@@ -634,12 +667,12 @@ form input,form textarea{
         margin-top: -40px;
     }
     .copyright{
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .copyright img{
-        width: 40px;
-        height: 20px;
+        width: 20px;
+        height: 15px;
     }
 
 }
