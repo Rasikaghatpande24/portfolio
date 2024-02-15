@@ -552,8 +552,8 @@ form input,form textarea{
         opacity: 0.7;
         position: fixed;
         top: 0;
-        right: -400px;
-        width: 200px;
+        right: -200px;
+        width: 400px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
