@@ -553,7 +553,7 @@ form input,form textarea{
         position: fixed;
         top: 0;
         right: -340px;
-        width: 340px;
+        width: 300px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
