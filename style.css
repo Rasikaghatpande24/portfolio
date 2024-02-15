@@ -551,8 +551,8 @@ form input,form textarea{
         opacity: 0.8;
         position: fixed;
         top: 0;
-        right: -300px;
-        width: 350px;
+        right: -350px;
+        width: 300px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -586,7 +586,7 @@ form input,form textarea{
         margin-left: 20px;
     }
     #header{
-        height: 125vh;
+        height: 115vh;
         background-position: bottom;
 
     }
@@ -596,6 +596,9 @@ form input,form textarea{
 /* ----------------about----------------- */
     .aboutCol1,.aboutCol2{
         flex-basis: 100%;
+    }
+    .aboutCol2 p {
+        font-size: 12px;
     }
     .aboutCol1 img{
         height: 350px;
