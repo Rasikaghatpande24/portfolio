@@ -11,7 +11,7 @@ body{
     background-color:black;
     color: #fff;
    /* animation: transitionIn ease-in 1s; */
-    overflow-x:hidden;
+/*     overflow-x:hidden; */
 }
 
 .reveal{
