@@ -584,11 +584,11 @@ form input,form textarea{
     .content{
         text-align: center;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 20px;
     }
     #header{
-        height: 105vh;
+        height: 125vh;
         background-position: bottom;
 
     }
