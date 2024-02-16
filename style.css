@@ -550,10 +550,10 @@ form input,form textarea{
         background: #81063f;
         color: white;
         opacity: 0.7;
-        position: fixed;
+        position: absolute;
         top: 0;
-        right: -200px;
-        width: 400px;
+        right: -400px;
+/*         width: 400px; */
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
