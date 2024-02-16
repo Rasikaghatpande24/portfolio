@@ -539,7 +539,7 @@ form input,form textarea{
 }
 /* -------------------css for mobile size display------------ */
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:650px){
 /* ----------------header------------------- */
 /* -----------------toggle navigation------------- */
     .navigation .fas{
@@ -553,7 +553,7 @@ form input,form textarea{
         opacity: 0.7;
         position: fixed;
         top: 0;
-        right: -800px;
+        right: -400px;
         width: 400px;
         height: 100vh;
         padding-top: 50px;
