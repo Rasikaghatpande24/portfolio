@@ -558,7 +558,7 @@ form input,form textarea{
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
-        transition: right 0.5s ease-in;
+        transition: right 0.5s ease-in-out;
     }
 
     .navigation ul li{
